@@ -16,7 +16,7 @@ export default {
 			title: "Languages",
 			skillName: "C, C++",
 			color: "1",
-			percentage: "80",
+			percentage: "90",
 		},
 		{
 			title: "Frameworks/Libraries",
@@ -33,20 +33,20 @@ export default {
 		{
 			title: "Design",
 			skillName: "HTML, CSS",
-			color: "4",
-			percentage: "70",
+			color: "1",
+			percentage: "90",
 		},
 		{
 			title: "Version Control",
 			skillName: "GitHub",
-			color: "7",
+			color: "2",
 			percentage: "70",
 		},
 		{
 			title: "Editor",
 			skillName: "VS Code,Atom,Codeblocks",
-			color: "6",
-			percentage: "70",
+			color: "5",
+			percentage: "80",
 		},
 	],
 	projects: {
