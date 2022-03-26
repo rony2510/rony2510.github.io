@@ -19,10 +19,22 @@ export default {
 			percentage: "90",
 		},
 		{
-			title: "Frameworks/Libraries",
-			skillName: "Bootstrap",
-			color: "6",
+			title: "Design",
+			skillName: "HTML, CSS",
+			color: "1",
+			percentage: "90",
+		},
+		{
+			title: "Design1",
+			skillName: "javascript",
+			color: "3",
 			percentage: "50",
+		},
+		{
+			title: "Frameworks/Libraries",
+			skillName: "Bootstrap,jQuery,AngularJS",
+			color: "6",
+			percentage: "70",
 		},
 		{
 			title: "Backend",
@@ -31,23 +43,17 @@ export default {
 			percentage: "70",
 		},
 		{
-			title: "Design",
-			skillName: "HTML, CSS",
-			color: "1",
-			percentage: "90",
-		},
-		{
 			title: "Version Control",
 			skillName: "GitHub",
 			color: "2",
 			percentage: "70",
 		},
-		{
-			title: "Editor",
-			skillName: "VS Code,Atom,Codeblocks",
-			color: "5",
-			percentage: "80",
-		},
+		// {
+		// 	title: "Editor",
+		// 	skillName: "VS Code,Atom,Codeblocks",
+		// 	color: "5",
+		// 	percentage: "80",
+		// },
 	],
 	projects: {
 		web: [
