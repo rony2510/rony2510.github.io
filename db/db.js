@@ -14,7 +14,7 @@ export default {
 	skills: [
 		{
 			title: "Languages",
-			skillName: "C, C++",
+			skillName: "C, C++, Python",
 			color: "1",
 			percentage: "90",
 		},
@@ -45,8 +45,8 @@ export default {
 		{
 			title: "Version Control",
 			skillName: "GitHub",
-			color: "2",
-			percentage: "70",
+			color: "4",
+			percentage: "100",
 		},
 		// {
 		// 	title: "Editor",
