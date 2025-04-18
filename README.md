@@ -1,4 +1,4 @@
-# rony2510.github.io
-My Portfolio<br>
-
-To learn about me check **[RONY HAJONG](https://rony2510.github.io/)**
+# ME
+RONY's diary<br>
+i write here about what happened to me<br>
+the website is [rony2510/ME](https://rony2510.github.io/ME/)
