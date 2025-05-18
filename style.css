@@ -1,127 +1,148 @@
+/* 1 */
+
 body{
-	background-color: #1d2834;
-	/*height: 1000px;*/
-}
-
-
-/*div center*/
-.center{
-	margin: auto;
-	width: 50%;
-	padding: 10px;
-}
-
-
-/*profile flex*/
-.flex-container{
-	display: flex;
-	flex-direction: row;
-    padding-top: 2px;
-}
-.flex-container>div{
-	width: 250px;
-	margin: auto;
-	/*background-color: cyan;*/
-}
-
-
-/*profile image*/
-.profile-image{
-	/*padding: 20px;*/
-	/*margin: auto;*/
-	height: 130px;
-	width: 130px;
-	border-radius: 100px;
+    /* background: linear-gradient(to right, #435f66, #0c5e64); */
+    background-color: #343a40;
 }
 
 
 
-/*tooltiprony*/
-.tooltiprony{
-    position: relative;
-    display: inline-block;
-    border:1px solid #28585b;
-    border-radius: 50px;
-    /*border-bottom: 1px dotted purple;*/
-}
-.tooltiprony .tooltiptext{
-    visibility: hidden;
-    width: 250%;
-    background-color: #28585b;
+
+
+
+
+
+
+
+/* 2 */
+/* Navbar container */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Makes sure it stays on top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #475058, #00f2fe);
+    padding: 1em 2em;
+  }
+
+  /* Logo or brand name */
+  .navbar .logo {
     color: white;
+    font-size: 1.5em;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Navbar links */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
+  }
+
+  .navbar ul li a:hover {
+    color: #222;
+  }
+
+  /* Responsive for small screens (optional basic example) */
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .navbar ul {
+      flex-direction: column;
+      gap: 0.5em;
+      margin-top: 1em;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3 */
+/* footer */
+
+  .footer {
+    background-color: #f2f2f2;
     text-align: center;
-    border-radius: 200px;
-    /*padding: 5px 15px;*/
+    padding: 1em 0;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: auto;
+  }
+  
 
-    position: absolute;
-    z-index: 1;
-    top: 100px;
-    right: 70%;
-}
-.tooltiprony:hover .tooltiptext{
-    visibility: visible;
-}
+  
 
 
-/* design */
-.design{
-    position: relative;
-	height: px;
-    /*margin: 30px 30px;*/
+
+
+
+
+
+
+/* 4 */
+#about {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.5em;
+    color: white;
+  }
+  
+
+
+
+
+/* 5 */
+.image-container {
+  text-align: center;
+  margin: 2em auto;
 }
-.des1,.des2,.des3,.des4,.des5,.des6,.des7{
-    /*margin: 5px 0px;*/
-    width: 60%;
-    height: 1.5px;
-    border-radius: 10px;
+
+.round-image {
+  width: 200px;           /* Adjust size as needed */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;     /* Makes the image round */
+  border: 3px solid #4facfe;
 }
-.des1{
-    background:  #9400D3;
-    position: relative;
-    animation: doit 3s infinite;
-    animation-direction: alternate;
+
+.image-caption {
+  margin-top: 0.5em;
+  font-size: 20px;
+  color: #333;
 }
-.des2{
-    background:  #4B0082;
-    position: relative;
-    animation: doit 3.5s infinite;
-    animation-direction: alternate;
-}
-.des3{
-    background:  #0000FF;
-    position: relative;
-    animation: doit 3s infinite;
-    animation-direction: alternate;
-}
-.des4{
-    background:  #00FF00;
-    position: relative;
-    animation: doit 3.5s infinite;
-    animation-direction: alternate;
-}
-.des5{
-    background:  #FFFF00;
-    position: relative;
-    animation: doit 3s infinite;
-    animation-direction: alternate;
-}
-.des6{
-    background:  #FF7F00;
-    position: relative;
-    animation: doit 3.5s infinite;
-    animation-direction: alternate;
-}
-.des7{
-    background:  #FF0000;
-    position: relative;
-    animation: doit 3s infinite;
-    animation-direction: alternate;
-}
-@keyframes  doit{
-    0%{left: 0%;top: 0px;height: px;width: px;}
-    50%{left: 80%;top: 0px;height: px;width: px;}
-    100%{left: 0%;top: 0px;height: px;width: 20%;}
-}
+
+
+
+
+
+
 
 
 
